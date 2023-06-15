@@ -17,4 +17,7 @@ export class CarDto{
     carDetails:CarDetailsDto;
     carFeatures:CarFeaturesDto;
     owner:ObjectId;
+    country:string;
+    city:string;
+    address:string;
 }

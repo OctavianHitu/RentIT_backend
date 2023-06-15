@@ -22,4 +22,8 @@ export class CarService {
       return this.carRepo.updateCar(id, carDto);
     }
 
+    findAll1(q:any) {
+      return this.carRepo.findAll1(q);
+    }
+
 }

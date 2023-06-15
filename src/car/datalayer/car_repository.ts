@@ -25,4 +25,14 @@ export class CarRepository {
 async deleteCar(id: ObjectId): Promise<Car> {
     return this.carModel.findOneAndDelete({ _id: id });
   }
+
+
+
+
+
+  async findAll1(query:any): Promise<Car[]> {
+    
+      return this.carModel.find(query).exec();
+    
+  }
 }

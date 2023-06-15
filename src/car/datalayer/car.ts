@@ -25,5 +25,11 @@ export class Car{
     carFeatures:CarFeatures;
     @Prop({ type: mongoose.Schema.Types.ObjectId })
     owner:ObjectId;
+    @Prop()
+    country:string;
+    @Prop()
+    city:string;
+    @Prop()
+    address:string;
 }
 export const CarSchema = SchemaFactory.createForClass(Car);

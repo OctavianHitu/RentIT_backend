@@ -1,8 +1,6 @@
 enum Headlights{
-    halogen="halogen",
-    xenon="xenon",
-    led="led",
-    laser="laser"
-    
-    
+    Halogen="Halogen",
+    Xenon="Xenon",
+    Led="Led",
+    Laser="Laser" 
 }

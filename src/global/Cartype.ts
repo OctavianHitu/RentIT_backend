@@ -1,9 +1,9 @@
 enum CarType{
-    sedan="sedan",
-    break="break",
-    suv="suv",
-    sport="sport",
-    hatchback="hatchback",
-    mini="mini",
-    convertable="converable"
+    Sedan="Sedan",
+    Break="Break",
+    Suv="Suv",
+    Sport="Sport",
+    Hatchback="Hatchback",
+    Mini="Mini",
+    Convertable="Convertable"
 }
