@@ -15,6 +15,7 @@ export class UserService {
     userDto.password = hash;
     return this.userRepo.createUser(userDto);
   }
+  
   deleteUser(id: ObjectId) {
     return this.userRepo.deleteUser(id);
   }

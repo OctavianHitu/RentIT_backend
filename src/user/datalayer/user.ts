@@ -34,12 +34,15 @@ export class User{
     @Prop()
     avatar:string;
     @Prop()
-    lang:number;
-    @Prop()
-    lat:number;
-    @Prop()
     isVerified:boolean; 
     @Prop()
     license:string;
+
+
+
+    @Prop()
+    lang:number;
+    @Prop()
+    lat:number;
 }
 export const UserSchema = SchemaFactory.createForClass(User);

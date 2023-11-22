@@ -31,5 +31,7 @@ export class Car{
     city:string;
     @Prop()
     address:string;
+    @Prop()
+    isVerified:boolean;
 }
 export const CarSchema = SchemaFactory.createForClass(Car);

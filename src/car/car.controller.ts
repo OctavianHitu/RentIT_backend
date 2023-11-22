@@ -15,30 +15,6 @@ findAll() {
 }
 
 
-// {brand:"Audi",'carFeatures.connectivity':"androidAuto"}
-// @Get()
-// findAllQuery(@Query() query) { 
-
-//   const obj:any={};
-//   if(query.brand){
-//     obj.brand=query.brand;
-//   }
-
-//   if (query.minPrice !== undefined&&query.maxPrice !== undefined) {
-//     obj.price = { $gte: query.minPrice, $lte: query.maxPrice };
-//   }else if (query.minPrice !== undefined) {
-//     obj.price = { $gte: query.minPrice };
-//   } else if (query.maxPrice !== undefined) {
-//     obj.price = { $lte: query.maxPrice };
-//   }
-
-//   if(query.connectivity){
-//     obj['carFeatures.connectivity']=query.connectivity;
-//   }
-//   console.log(obj)
-  
-//   return this.carService.findAll1(obj);
-// }
 
 
 @Post()

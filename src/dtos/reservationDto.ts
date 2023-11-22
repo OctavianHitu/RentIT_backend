@@ -2,7 +2,6 @@ import { IsDate, IsNotEmpty } from "class-validator";
 import { ObjectId } from "mongoose";
 
 export class ReservationDto{
-
     @IsNotEmpty()
     userId:ObjectId;
     @IsNotEmpty()
@@ -13,6 +12,4 @@ export class ReservationDto{
     startDate: Date;
     @IsDate()
     endDate: Date;
-
-
 }

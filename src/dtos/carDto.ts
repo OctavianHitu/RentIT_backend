@@ -20,4 +20,5 @@ export class CarDto{
     country:string;
     city:string;
     address:string;
+    isVerified:boolean;
 }

@@ -5,5 +5,6 @@ enum CarType{
     Sport="Sport",
     Hatchback="Hatchback",
     Mini="Mini",
-    Convertable="Convertable"
+    Convertable="Convertable",
+    Van="Van"
 }
